@@ -1,0 +1,25 @@
+@import url("./header.css");
+@import url("./main.css");
+
+:root {
+    --cor-de-fundo: #0D0D0D;
+    --vermelho-claro: #BF0413;
+    --vermelho-escuro: #730202;
+    --cor-de-fonte: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Kanit', sans-serif;
+}
