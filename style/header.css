@@ -10,10 +10,14 @@ header{
     color: var(--vermelho-claro);
 }
 
-.container-header-logo p {
+/* .container-header-logo p {
     font-size: 3em;
     text-transform: uppercase;
     letter-spacing: .1em;
+} */
+
+.header-logo {
+    width: 30em;
 }
 
 .navegaçao-list {

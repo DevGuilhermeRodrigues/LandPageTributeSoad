@@ -1,26 +1,41 @@
 .container-main {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url("../assets/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center bottom;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.container-main-topo {
+    height: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
 
-.container-main h1 {
+.container-main-topo h1 {
+    text-shadow: 3px 3px #232222;
+    background-color: rgba(34, 34, 34, 0.318);
+    letter-spacing: 1px;
     font-size: 5em;
     color: var(--cor-de-fonte);
+}
+
+.logo-banda {
+    width: 100em;
 }
 
 .container-biografia {
     color: var(--cor-de-fonte);
     width: 100%;
-    /* background-color: var(--cor-de-fundo); */
     background-color: #222222;
     display: flex;
     justify-content: center;
@@ -57,7 +72,7 @@
 }
 
 /* Section Show */
-
+ 
 
 .container-shows {
     margin-top: 2em;
@@ -71,16 +86,66 @@
     padding: 1em 5em;
 } 
 
-.container-agenda-shows {
-    color: var(--cor-de-fonte);
-    padding: 1em;
-    font-size: 2em;
+.list-tuor {
+    list-style: none;
+}
+
+.list-tuor-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.list-tuor-description {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1em 0;
-    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.2);
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.416) 0px 6px 8px;
 }
+
+.list-tuor-description div {
+    width: 20em;
+    font-size: 1.5em;
+    color: var(--cor-de-fonte);
+}
+
+.list-tour-description-country {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.list-tuor-date p{
+    text-align: left;
+}
+
+.code-pais {
+    font-size: 1.2em;
+}
+
+.list-tour-description-buy {
+    text-align: center;
+}
+
+.list-tour-description-buy a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--cor-de-fonte);
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: var(--vermelho-claro);
+    width: 60%;
+    display: inline-block;
+    padding: .4em 1em;
+    border-radius: 5px;   
+}
+
+.list-tour-description-buy a:hover {
+   background-color: var(--cor-de-fonte);
+   color: var(--vermelho-claro);
+}
+
+
 
 
 
